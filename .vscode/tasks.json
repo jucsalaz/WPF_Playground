@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build FigmaTestApp Debug x64",
+			"type": "shell",
+			"command": "C:\\Program Files\\dotnet\\dotnet.exe",
+			"args": [
+				"build",
+				"src/FigmaTestApp/FigmaTestApp.csproj",
+				"-c",
+				"Debug",
+				"-p:Platform=x64"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build FigmaTestApp Release x64",
+			"type": "shell",
+			"command": "C:\\Program Files\\dotnet\\dotnet.exe",
+			"args": [
+				"build",
+				"src/FigmaTestApp/FigmaTestApp.csproj",
+				"-c",
+				"Release",
+				"-p:Platform=x64"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "publish FigmaTestApp Release win-x64",
+			"type": "shell",
+			"command": "C:\\Program Files\\dotnet\\dotnet.exe",
+			"args": [
+				"publish",
+				"src/FigmaTestApp/FigmaTestApp.csproj",
+				"-c",
+				"Release",
+				"-r",
+				"win-x64",
+				"--self-contained",
+				"false"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
