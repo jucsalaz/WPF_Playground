@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:FigmaTestApp"
         mc:Ignorable="d"
         Title="FigmaTestApp" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="{DynamicResource Brush.SurfaceMuted}">
+        <Button Content="Button"
+                Style="{StaticResource PrimaryButtonStyle}"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center" />
     </Grid>
 </Window>

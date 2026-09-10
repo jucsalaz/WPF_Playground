@@ -1,3 +1,20 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="Color.Primary">#FF2563EB</Color>
+    <Color x:Key="Color.PrimaryHover">#FF1D4ED8</Color>
+    <Color x:Key="Color.PrimaryPressed">#FF1E40AF</Color>
+    <Color x:Key="Color.PrimaryDisabled">#FF9CA3AF</Color>
+    <Color x:Key="Color.OnPrimary">#FFFFFFFF</Color>
+    <Color x:Key="Color.Surface">#FFFFFFFF</Color>
+    <Color x:Key="Color.SurfaceMuted">#FFF8FAFC</Color>
+    <Color x:Key="Color.Border">#FFE2E8F0</Color>
+
+    <SolidColorBrush x:Key="Brush.Primary" Color="{StaticResource Color.Primary}" />
+    <SolidColorBrush x:Key="Brush.PrimaryHover" Color="{StaticResource Color.PrimaryHover}" />
+    <SolidColorBrush x:Key="Brush.PrimaryPressed" Color="{StaticResource Color.PrimaryPressed}" />
+    <SolidColorBrush x:Key="Brush.PrimaryDisabled" Color="{StaticResource Color.PrimaryDisabled}" />
+    <SolidColorBrush x:Key="Brush.OnPrimary" Color="{StaticResource Color.OnPrimary}" />
+    <SolidColorBrush x:Key="Brush.Surface" Color="{StaticResource Color.Surface}" />
+    <SolidColorBrush x:Key="Brush.SurfaceMuted" Color="{StaticResource Color.SurfaceMuted}" />
+    <SolidColorBrush x:Key="Brush.Border" Color="{StaticResource Color.Border}" />
 </ResourceDictionary>
